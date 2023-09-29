@@ -1,0 +1,110 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+    background-color: #f0f4fa;
+}
+
+a {
+    text-decoration: none;
+}
+
+.main-element {
+    position: absolute;
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    align-content: center;
+    top: 22%;
+    left: 18%;
+}
+
+.header {
+    text-align: left;
+    padding-right: 90px;
+    padding-top: 60px;
+}
+
+.header h1 {
+    color: #1877F2	;
+    font-size: 60px;
+}
+
+.header p {
+    font-size: 25px;
+    font-weight: 400;
+    line-height: 32px;
+}
+
+.inputs form {
+    display: flex;
+    flex-direction: column;
+    background-color: #fff;
+    width: 100%;
+    margin-bottom: 25px;
+    align-content: center;
+    width: 400px;
+    border-radius: 10px;
+    padding: 15px 15px 30px 15px;
+    border: none;
+    box-sizing: border-box;
+    box-shadow: 0 0 20px 0px rgba(0, 0, 0, 0.2);
+}
+
+.inputs input {
+    padding: 15px;
+    margin-bottom: 15px;
+    outline: none;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #fff;
+}
+
+.inputs input::placeholder {
+    font-size: 15px;
+}
+
+.inputs .btn {
+    font-size: 20px;
+    margin-bottom: 15px;
+    padding: 8px;
+    color: #fff;
+    background-color: #1877F2;
+    border: none;
+    border-radius: 5px;
+    font-weight: 500;
+}
+
+.inputs .btn1 {
+    font-size: 15px;
+    background-color: #fff;
+    margin-bottom: 20px;
+}
+
+.inputs hr {
+    font-weight: 200;
+    width: 100%;
+}
+
+.inputs .btn2 {
+    position: relative;
+    text-align: center;
+    padding: 10px 10px;
+    border-radius: 5px;
+    font-weight: 500;
+    color: #fff;
+    background-color: rgb(46, 179, 46);
+    margin: 25px 40px 0 80px;
+    width: 50%;
+}
+
+.createPage {
+    font-size: 14px;
+}
+
+.createPage span a {
+    font-weight: 600;
+    color: rgb(0, 0, 0);
+}
